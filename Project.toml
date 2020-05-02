@@ -1,0 +1,13 @@
+name = "julia_pkgdev_example"
+uuid = "a09147f5-568b-4ffe-8d00-01c531f01b72"
+authors = ["Salar Arbabi"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
